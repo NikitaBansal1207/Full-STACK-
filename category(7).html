@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textile Designing</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg,#ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+ 
+@keyframes gradientBG{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+        .logo {
+            height: 0px;
+            width: 25%;
+            padding-bottom: 0px;
+            animation: text 1s linear infinite;
+            float: left;
+
+
+        }
+
+        @keyframes text {
+            0% {
+                color: antiquewhite
+            }
+
+            25% {
+                color: darkkhaki;
+            }
+
+            50% {
+                color: burlywood;
+            }
+
+            75% {
+                color: chocolate;
+            }
+
+            100% {
+                color: goldenrod;
+            }
+        }
+
+        .slideshow {
+            margin: 0 auto;
+            padding-top: 50px;
+            box-sizing: border-box;
+        }
+
+        .content {
+            margin: auto;
+            width: 190px;
+            perspective: 1000px;
+            position: relative;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .content-carrousel {
+            width: 100%;
+            position: absolute;
+            float: right;
+            animation: rotar 15s infinite linear;
+            transform-style: preserve-3d;
+
+        }
+
+        .content-carrousel:hover {
+            animation-play-state: paused;
+            cursor: pointer;
+        }
+
+        .content-carrousel figure {
+            width: 100%;
+            height: 120px;
+            border: 1px solid #4d444d;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .content-carrousel figure:nth-child(1) {
+            transform: rotateY(0deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(2) {
+            transform: rotateY(40deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(3) {
+            transform: rotateY(80deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(4) {
+            transform: rotateY(120deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(5) {
+            transform: rotateY(160deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(6) {
+            transform: rotateY(200deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(7) {
+            transform: rotateY(240deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(8) {
+            transform: rotateY(280deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(9) {
+            transform: rotateY(320deg) translateZ(300px);
+        }
+
+        .shadow {
+            position: absolute;
+            box-shadow: 0px 0px 20px 0px #000;
+            border-radius: 2px;
+
+        }
+
+        .content-carrousel img {
+            image-rendering: auto;
+            transition: all 300ms;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .content-carrousel img:hover {
+            transform: scale(1.2);
+            transition: all 300ms;
+
+        }
+
+        @keyframes rotar {
+            from {
+                transform: rotateY(0deg);
+
+            }
+
+            to {
+                transform: rotateY(360deg);
+            }
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .text {
+            background-color: transparent;
+            color: black;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+
+        .col-md-6:hover .img {
+            opacity: 0.3;
+        }
+
+        .col-md-6 {
+            height: 100%;
+        }
+
+        .col-md-6:hover .middle {
+            opacity: 0.5;
+        }
+
+        .col-md-6:hover .text {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo" style="color:goldenrod;
+            font-family: cursive;
+            text-align-last: left;width: 100%;height:90px;padding:3px;font-size: 40px;">Interiorismo</div>
+    <div class="logo1" style="color:white;;
+            font-family: cursive;
+            text-align:center;;width: 100%;height:80px;padding:3px;font-size: 40px;">Textile Design</div>
+    <section class="slideshow"><br><br>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j1.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#1" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j2.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#2" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j3.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#3" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j4.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#4" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j5.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#5" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j6.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#6" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j7.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#7" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j8.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#8" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j9.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#9" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j10.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#10" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j11.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#11" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j12.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#12" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j13.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#13" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j14.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#14" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j15.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#15" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j16.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#16" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j17.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#17" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j18.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#18" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j19.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#19" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j20.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#20" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j21.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#21" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j22.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#22" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j23.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#23" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j24.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#24" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j25.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#25" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j26.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#26" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="j27.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category7a.html#27" style="text-decoration: none;color: white;"> The Textile style of houses, buildings and structures walls.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+    </section>
+    <script src=""></script>
+</body></html>

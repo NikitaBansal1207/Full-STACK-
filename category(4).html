@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Designing</title>
+    <link rel="stylesheet" href="">
+    <style>
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg,#ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+ 
+@keyframes gradientBG{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+        .logo {
+            height: 0px;
+            width: 25%;
+            padding-bottom: 0px;
+            animation: text 1s linear infinite;
+            float: left;
+
+
+        }
+
+        @keyframes text {
+            0% {
+                color: antiquewhite
+            }
+
+            25% {
+                color: darkkhaki;
+            }
+
+            50% {
+                color: burlywood;
+            }
+
+            75% {
+                color: chocolate;
+            }
+
+            100% {
+                color: goldenrod;
+            }
+        }
+
+        .slideshow {
+            margin: 0 auto;
+            padding-top: 50px;
+            box-sizing: border-box;
+        }
+
+        .content {
+            margin: auto;
+            width: 190px;
+            perspective: 1000px;
+            position: relative;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .content-carrousel {
+            width: 100%;
+            position: absolute;
+            float: right;
+            animation: rotar 15s infinite linear;
+            transform-style: preserve-3d;
+
+        }
+
+        .content-carrousel:hover {
+            animation-play-state: paused;
+            cursor: pointer;
+        }
+
+        .content-carrousel figure {
+            width: 100%;
+            height: 120px;
+            border: 1px solid #4d444d;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .content-carrousel figure:nth-child(1) {
+            transform: rotateY(0deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(2) {
+            transform: rotateY(40deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(3) {
+            transform: rotateY(80deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(4) {
+            transform: rotateY(120deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(5) {
+            transform: rotateY(160deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(6) {
+            transform: rotateY(200deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(7) {
+            transform: rotateY(240deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(8) {
+            transform: rotateY(280deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(9) {
+            transform: rotateY(320deg) translateZ(300px);
+        }
+
+        .shadow {
+            position: absolute;
+            box-shadow: 0px 0px 20px 0px #000;
+            border-radius: 2px;
+
+        }
+
+        .content-carrousel img {
+            image-rendering: auto;
+            transition: all 300ms;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .content-carrousel img:hover {
+            transform: scale(1.2);
+            transition: all 300ms;
+
+        }
+
+        @keyframes rotar {
+            from {
+                transform: rotateY(0deg);
+
+            }
+
+            to {
+                transform: rotateY(360deg);
+            }
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .text {
+            background-color: transparent;
+            color: black;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+
+        .col-md-6:hover .img {
+            opacity: 0.3;
+        }
+
+        .col-md-6:hover .middle {
+            opacity: 0.5;
+        }
+
+        .col-md-6:hover .text {
+            opacity: 1;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .text {
+            background-color: transparent;
+            color: black;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+
+        .col-md-6:hover .img {
+            opacity: 0.3;
+        }
+
+        .col-md-6 {
+            height: 100%;
+        }
+
+        .col-md-6:hover .middle {
+            opacity: 0.5;
+        }
+
+        .col-md-6:hover .text {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo" style="color:goldenrod;
+            font-family: cursive;
+            text-align-last: left;width: 100%;height:90px;padding:3px;font-size: 40px;">Interiorismo</div>
+    <div class="logo1" style="color:white;
+            font-family: cursive;
+            text-align:center;width: 100%;height:80px;padding:3px;font-size: 40px;">Furniture Design</div><br><br><br><br>
+    <div class="logo2" style="color:white;
+            font-family: cursive;
+            text-align:left:;width: 100%;height:10px;padding:3px;font-size: 30px;">Tables Design</div>
+    <section class="slideshow"><br><br>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c1.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#1" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c2.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#2" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c3.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#3" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c4.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#4" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c5.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#5" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c6.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#6" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c7.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#7" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c8.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#8" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c9.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#9" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c10.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#10" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c11.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#11" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c12.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#12" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c13.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#13" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c14.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#14" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c15.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#15" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c16.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#16" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c17.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#17" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="c18.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#18" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="logo2" style="color:white;
+            font-family: cursive;
+            text-align:left:;width: 100%;height:10px;padding:3px;font-size: 30px;">Chair Design</div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d1.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#19" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d2.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#20" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d3.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#21" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d4.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#22" style="text-decoration: none;color: white;"> The Table style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d5.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#23" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d6.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#24" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d7.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#25" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d8.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#26" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d9.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#27" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d10.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#28" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d11.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#29" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d12.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#30" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d13.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#31" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d14.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#32" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d15.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#33" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d16.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#34" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d17.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#35" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="d18.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#36" style="text-decoration: none;color: white;"> The Chair style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="logo2" style="color:white;
+            font-family: cursive;
+            text-align:left:;width: 100%;height:10px;padding:3px;font-size: 30px;">Bed Design</div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e1.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#37" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e2.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#38" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e3.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#39" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e4.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#40" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e5.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#41" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e6.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#42" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e7.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#43" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e8.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#44" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e9.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#45" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e10.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#46" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e11.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#47" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e12.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#48" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e13.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#49" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e14.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#50" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e15.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#51" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e16.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#52" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e17.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#53" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="e18.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#54" style="text-decoration: none;color: white;"> The Bed style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="logo2" style="color:white;
+            font-family: cursive;
+            text-align:left:;width: 100%;height:10px;padding:3px;font-size: 30px;">Door Design</div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f1.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#55" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f2.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#56" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f3.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#57" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f4.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#58" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f5.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#59" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f6.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#60" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f7.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#61" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f8.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#62" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f9.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#63" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f10.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#64" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f11.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#65" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f12.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#66" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f13.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#67" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f14.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#68" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f15.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#69" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f16.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#70" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f17.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#71" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="f18.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#72" style="text-decoration: none;color: white;"> The Door style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="logo2" style="color:white;
+            font-family: cursive;
+            text-align:left:;width: 100%;height:10px;padding:3px;font-size: 30px;">Cupboard Design</div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g1.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#73" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g2.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#74" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g3.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#75" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g4.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#76" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g5.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#77" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g6.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#78" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g7.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#79" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g8.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#80" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g9.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#81" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g10.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#82" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g11.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#83" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g12.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#84" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g13.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#85" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g14.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#86" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g15.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#87" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g16.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#88" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g17.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#89" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="g18.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category4a.html#90" style="text-decoration: none;color: white;"> The Cupboard style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </section>
+    <script src=""></script>
+</body></html>

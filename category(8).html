@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bathroom Designing</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg,#ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+ 
+@keyframes gradientBG{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+        .logo {
+            height: 0px;
+            width: 25%;
+            padding-bottom: 0px;
+            animation: text 1s linear infinite;
+            float: left;
+
+
+        }
+
+        @keyframes text {
+            0% {
+                color: antiquewhite
+            }
+
+            25% {
+                color: darkkhaki;
+            }
+
+            50% {
+                color: burlywood;
+            }
+
+            75% {
+                color: chocolate;
+            }
+
+            100% {
+                color: goldenrod;
+            }
+        }
+
+        .slideshow {
+            margin: 0 auto;
+            padding-top: 50px;
+            box-sizing: border-box;
+        }
+
+        .content {
+            margin: auto;
+            width: 190px;
+            perspective: 1000px;
+            position: relative;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .content-carrousel {
+            width: 100%;
+            position: absolute;
+            float: right;
+            animation: rotar 15s infinite linear;
+            transform-style: preserve-3d;
+
+        }
+
+        .content-carrousel:hover {
+            animation-play-state: paused;
+            cursor: pointer;
+        }
+
+        .content-carrousel figure {
+            width: 100%;
+            height: 120px;
+            border: 1px solid #4d444d;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .content-carrousel figure:nth-child(1) {
+            transform: rotateY(0deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(2) {
+            transform: rotateY(40deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(3) {
+            transform: rotateY(80deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(4) {
+            transform: rotateY(120deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(5) {
+            transform: rotateY(160deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(6) {
+            transform: rotateY(200deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(7) {
+            transform: rotateY(240deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(8) {
+            transform: rotateY(280deg) translateZ(300px);
+        }
+
+        .content-carrousel figure:nth-child(9) {
+            transform: rotateY(320deg) translateZ(300px);
+        }
+
+        .shadow {
+            position: absolute;
+            box-shadow: 0px 0px 20px 0px #000;
+            border-radius: 2px;
+
+        }
+
+        .content-carrousel img {
+            image-rendering: auto;
+            transition: all 300ms;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .content-carrousel img:hover {
+            transform: scale(1.2);
+            transition: all 300ms;
+
+        }
+
+        @keyframes rotar {
+            from {
+                transform: rotateY(0deg);
+
+            }
+
+            to {
+                transform: rotateY(360deg);
+            }
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .text {
+            background-color: transparent;
+            color: black;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+
+        .col-md-6:hover .img {
+            opacity: 0.3;
+        }
+
+        .col-md-6 {
+            height: 100%;
+        }
+
+        .col-md-6:hover .middle {
+            opacity: 0.5;
+        }
+
+        .col-md-6:hover .text {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo" style="color:goldenrod;
+            font-family: cursive;
+            text-align-last: left;width: 100%;height:90px;padding:3px;font-size: 40px;">Interiorismo</div>
+    <div class="logo1" style="color:white;
+            font-family: cursive;
+            text-align:center;width: 100%;height:80px;padding:3px;font-size: 40px;">Bathroom Design</div><br><br><br><br>
+    <div class="logo2" style="color:white;
+            font-family: cursive;
+            text-align:left:;width: 100%;height:10px;padding:3px;font-size: 30px;">Basin Design</div>
+    <section class="slideshow"><br><br>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k1.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#1" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k2.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#2" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k3.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#3" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k4.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#4" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k5.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#5" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k6.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#6" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k7.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#7" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k8.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#8" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k9.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#9" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k10.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#10" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k11.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#11" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k12.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#12" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k13.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#13" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k14.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#14" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k15.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#15" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k16.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#16" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k17.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#17" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="k18.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#18" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="logo2" style="color:white;
+            font-family: cursive;
+            text-align:left:;width: 100%;height:10px;padding:3px;font-size: 30px;">Bathtub Design</div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l1.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#19" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l2.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#20" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l3.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#21" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l4.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#22" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l5.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#23" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l6.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#24" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l7.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#25" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l8.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#26" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l9.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#27" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l10.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#28" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l11.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#29" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l12.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#30" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l13.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#31" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l14.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#32" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l15.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#33" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l16.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#34" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l17.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#35" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="l18.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#36" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="logo2" style="color:white;
+            font-family: cursive;
+            text-align:left:;width: 100%;height:10px;padding:3px;font-size: 30px;">Shower Design</div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m1.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#37" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m2.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#38" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m3.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#39" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m4.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#40" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m5.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#41" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m6.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#42" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m7.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#43" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m8.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#44" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m9.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#45" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m10.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#46" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m11.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#47" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m12.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#48" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m13.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#49" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m14.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#50" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m15.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#51" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m16.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#52" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m17.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#53" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="m18.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#54" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div class="logo2" style="color:white;
+font-family: cursive;
+            text-align:left:;width: 100%;height:10px;padding:3px;font-size: 30px;">Tap Design</div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n1.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#55" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n2.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#56" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n3.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#57" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n4.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#58" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n5.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#59" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n6.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#60" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n7.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#61" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n8.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#62" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n9.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#63" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="content">
+            <div class="content-carrousel">
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n10.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#64" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n11.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#65" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n12.png"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#66" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n13.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#67" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n14.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#68" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n15.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#69" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n16.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#70" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n17.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#71" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="shadow">
+                    <div class="col-md-6"><a href="#" target="_blank"><img src="n18.jpg"></a>
+                        <div class="middle">
+                            <div class="text"><a href="category8a.html#72" style="text-decoration: none;color: white;"> The Bathroom style of houses, buildings and structures.</a></div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+    </section>
+    <script src=""></script>
+</body></html>
