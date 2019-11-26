@@ -1,0 +1,62 @@
+   body 
+    {
+      background: white;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+
+.logo {
+            height: 0px;
+            width: 25%;
+            padding-bottom: 0px;
+            animation: text 1s linear infinite;
+            float: left;
+
+
+        }
+
+        @keyframes text {
+            0% {
+                color: antiquewhite
+            }
+
+            25% {
+                color: darkkhaki;
+            }
+
+            50% {
+                color: burlywood;
+            }
+
+            75% {
+                color: chocolate;
+            }
+
+            100% {
+                color: goldenrod;
+            }
+        }
+    .container
+{
+    padding: 10px;
+    margin: 10px;
+    font-style: italic;
+    font-size: 25px;
+}
+    .swiper-container
+    {
+      width: 100%;
+/*      padding-top: 200px;*/
+      padding-bottom: 50px;
+    }
+    .swiper-slide
+    {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 380px;
+/*      background: #fff;*/
+    }
